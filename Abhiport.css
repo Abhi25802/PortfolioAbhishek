@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 28px;
+}
+
+.social-icons .linkedin i {
+    color: #0077b5;
+}
+
+/* LinkedIn blue */
+.social-icons .whatsapp i {
+    color: #25d366;
+}
+
+/* WhatsApp green */
+.social-icons .instagram i {
+    color: #e4405f;
+}
+
+/* Instagram pink */
+.social-icons .twitter i {
+    color: #1da1f2;
+}
+
+/* Twitter blue */
+
+.social-icons a:hover {
+    opacity: 0.8;
+    /* Slight fade on hover */
+}
